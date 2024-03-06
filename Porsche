@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Historia del 911">
+    <title>Porsche</title>
+</head>
+<style>
+    body{
+        background-color: rgb(105, 34, 34)
+    }
+    
+    h1{
+        font-family: monospace;
+        text-align: center;
+        font-size: 300%;
+        color: darkgoldenrod;
+    }
+    .encabezado img{
+        float: left;   
+        margin-top: -0.75%;
+    }
+
+    .encabezado #opc{
+        float: right;   
+        margin-top: -0.5%;
+    }
+    .cuerpo img{
+        padding-left: 20%;
+    }
+    table tr{
+        background-color: burlywood;
+    }
+    td h2{
+        text-align: center;
+        color: rgb(105, 34, 34)
+    }
+    p{
+        font-size: 150%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
+<body>
+    <div class="encabezado">
+    <img src="../porsche_img/porshelogo.png" alt="Logo" width="50" usemap="#logo">
+    <map name="logo">
+        <area shape="rect" coords="1,1,512,512" href="https://www.porsche.com/spain/" alt="Logo" target="_blank">
+    </map>
+    <img src="../porsche_img/Icono menu.png" alt="menu" width="50" id="opc" usemap="#menu">
+    <map name="menu">
+        <area shape="rect" coords="1,1,512,512" href="../index.html" alt="menu">
+    </map>
+    <h1>PORSCHE</h1>
+    </div>
+    <hr>
+    <div class="cuerpo">
+        <table border="1">
+            <tr>
+                <td>
+                    <h2>Porsche 911 Carrera</h2>
+                    <img src="../porsche_img/911 carrera.jpg" alt="911 carrera" width="60%" >   
+                </td>
+                <td>
+                    <p>El <b>Porsche 911 Carrera</b> surgió como sucesor del Porsche 356 en la <i>década de 1960</i>. Diseñado por Ferdinand "Butzi" Porsche, se presentó inicialmente como el Porsche 901, pero debido a conflictos de nombres con Peugeot, se cambió a 911. Presentado en 1963, el 911 se caracterizaba por su diseño elegante y su motor trasero refrigerado por aire. La variante Carrera, haciendo referencia a la Carrera Panamericana, se introdujo en la década de 1970. Desde entonces, el Porsche 911 Carrera ha evolucionado y se ha consolidado como un ícono en el mundo de los automóviles deportivos.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>La segunda generación del Porsche 911 se conoce como el <b>Porsche 911 de la serie 930</b>. La serie 930 se produjo desde <i>1975 hasta 1989</i> y es conocida por su designación interna como la segunda generación del 911. La serie 930 es famosa por incluir el Porsche 911 Turbo, que se introdujo en 1975 como parte de esta generación. Luego, la tercera generación del Porsche 911 comenzó con el modelo 964.</p>   
+                </td>
+                <td>
+                    <h2>Porsche 911 930</h2>
+                    <img src="../porsche_img/930.jpg" alt="porsche 930" width="60%" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Porsche 911 964</h2>
+                    <img src="../porsche_img/964.jpg" alt="porsche 964" width="60%" >   
+                </td>
+                <td>
+                    <p>El <b>Porsche 964</b> fue la tercera generación del Porsche 911, producida de <i>1989 a 1994</i>. Fue una evolución del modelo anterior, el Carrera 3.2. Introdujo cambios notables, como la suspensión trasera multibrazo, la opción de tracción en las cuatro ruedas (Carrera 4), un diseño exterior revisado, un motor de 3.6 litros y mejoras en la seguridad con la incorporación de bolsas de aire.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>El <b>Porsche 993</b> fue la cuarta generación del Porsche 911, fabricada entre <i>1993 y 1998</i>. Fue una evolución del modelo Porsche 964 y representó el último 911 con motor refrigerado por aire antes de la transición a motores refrigerados por agua en generaciones posteriores. Introdujo un diseño exterior más aerodinámico, opciones de tracción trasera (Carrera) y tracción integral (Carrera 4), motor de seis cilindros boxer, transmisión manual de seis velocidades, y mejoras en frenos y tecnología. Su combinación de diseño clásico y tecnología avanzada lo hace altamente valorado entre los entusiastas.</p>   
+                </td>
+                <td>
+                    <h2>Porsche 911 993</h2>
+                    <img src="../porsche_img/993.jpg" alt="porsche 993" width="60%" >
+                </td>
+            </tr>
+        </table>
+        <img src="../porsche_img/return_icon_154912.png" alt="menu" width="50" id="flecha" usemap="#aki">
+        <map name="aki">
+            <area shape="rect" coords="1,1,512,512" href="../index.html" alt="aki">
+        </map>
+    </div>
+</body>
+</html>
